@@ -7,19 +7,63 @@
     <style>
         body {
     background-color: rgb(254, 250, 249);
+    height: 300px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            align-items: center;
     }
 
     h1 {
         color: rgb(104, 59, 48);
     }
 
+        #log1 {
+            width: 400px; 
+        }
 
     </style>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">CHOOSE ME!</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">TALENTOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">TIENDA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CARRITO</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      LOGIN
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="login.html">Inicio sesion</a></li>
+                      <li><a class="dropdown-item" href="registro.html">Crear cuenta</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 </head>
 <body>
     <div class="wrapper" id="log1">
         <form action="">
-            <h1>LOGIN</h1>
+            <h1>LOGIN</h1>       
             <div class="input-box">
                 <input type="text" placeholder="Nombre usuario" required>
             </div>
